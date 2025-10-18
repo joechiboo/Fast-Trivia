@@ -1,0 +1,642 @@
+[
+  {
+    "id": "ch001",
+    "category": "chinese",
+    "question": "「ㄇㄚ ㄇㄚ」是什麼字？",
+    "options": ["媽媽", "馬馬", "罵罵", "麻麻"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ch002",
+    "category": "chinese",
+    "question": "「ㄅㄚ ㄅㄚ」是什麼字？",
+    "options": ["爸爸", "八八", "把把", "巴巴"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ch003",
+    "category": "chinese",
+    "question": "「大」的相反是什麼？",
+    "options": ["小", "多", "少", "高"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ch004",
+    "category": "chinese",
+    "question": "「一」的注音是什麼？",
+    "options": ["ㄧ", "ㄦ", "ㄙ", "ㄕ"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ch005",
+    "category": "chinese",
+    "question": "「上」的相反是什麼？",
+    "options": ["下", "左", "右", "中"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ch006",
+    "category": "chinese",
+    "question": "「日」是什麼意思？",
+    "options": ["太陽", "月亮", "星星", "雲"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ch007",
+    "category": "chinese",
+    "question": "「月」是什麼意思？",
+    "options": ["月亮", "太陽", "星星", "雲"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ch008",
+    "category": "chinese",
+    "question": "「水」的注音是什麼？",
+    "options": ["ㄕㄨㄟˇ", "ㄙㄨㄟˇ", "ㄕㄨㄟ", "ㄙㄨㄟ"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ch009",
+    "category": "chinese",
+    "question": "「山」是什麼意思？",
+    "options": ["高山", "河流", "大海", "天空"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ch010",
+    "category": "chinese",
+    "question": "「火」的注音是什麼？",
+    "options": ["ㄏㄨㄛˇ", "ㄈㄨㄛˇ", "ㄏㄨㄛ", "ㄈㄨㄛ"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ch011",
+    "category": "chinese",
+    "question": "「好」的相反是什麼？",
+    "options": ["壞", "棒", "美", "醜"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ch012",
+    "category": "chinese",
+    "question": "「人」有幾畫？",
+    "options": ["2畫", "1畫", "3畫", "4畫"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ch013",
+    "category": "chinese",
+    "question": "「口」有幾畫？",
+    "options": ["3畫", "2畫", "4畫", "5畫"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ch014",
+    "category": "chinese",
+    "question": "「天」的相反是什麼？",
+    "options": ["地", "雲", "風", "雨"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ch015",
+    "category": "chinese",
+    "question": "「早」的相反是什麼？",
+    "options": ["晚", "中", "午", "夜"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ch016",
+    "category": "chinese",
+    "question": "「開」的相反是什麼？",
+    "options": ["關", "門", "窗", "鎖"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ch017",
+    "category": "chinese",
+    "question": "「左」的相反是什麼？",
+    "options": ["右", "上", "下", "中"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ch018",
+    "category": "chinese",
+    "question": "「快」的相反是什麼？",
+    "options": ["慢", "停", "走", "跑"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ch019",
+    "category": "chinese",
+    "question": "「多」的相反是什麼？",
+    "options": ["少", "大", "小", "高"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ch020",
+    "category": "chinese",
+    "question": "「高」的相反是什麼？",
+    "options": ["矮", "低", "短", "小"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "en001",
+    "category": "english",
+    "question": "Apple 是什麼意思？",
+    "options": ["蘋果", "香蕉", "橘子", "西瓜"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "en002",
+    "category": "english",
+    "question": "Cat 是什麼動物？",
+    "options": ["貓", "狗", "兔子", "老鼠"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "en003",
+    "category": "english",
+    "question": "Dog 是什麼動物？",
+    "options": ["狗", "貓", "兔子", "老鼠"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "en004",
+    "category": "english",
+    "question": "字母 A 後面是什麼？",
+    "options": ["B", "C", "D", "E"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "en005",
+    "category": "english",
+    "question": "字母 M 後面是什麼？",
+    "options": ["N", "O", "L", "P"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "en006",
+    "category": "english",
+    "question": "Red 是什麼顏色？",
+    "options": ["紅色", "藍色", "綠色", "黃色"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "en007",
+    "category": "english",
+    "question": "Blue 是什麼顏色？",
+    "options": ["藍色", "紅色", "綠色", "黃色"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "en008",
+    "category": "english",
+    "question": "Banana 是什麼水果？",
+    "options": ["香蕉", "蘋果", "橘子", "西瓜"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "en009",
+    "category": "english",
+    "question": "One 是數字幾？",
+    "options": ["1", "2", "3", "4"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "en010",
+    "category": "english",
+    "question": "Two 是數字幾？",
+    "options": ["2", "1", "3", "4"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "en011",
+    "category": "english",
+    "question": "Three 是數字幾？",
+    "options": ["3", "2", "4", "5"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "en012",
+    "category": "english",
+    "question": "Five 是數字幾？",
+    "options": ["5", "4", "6", "7"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "en013",
+    "category": "english",
+    "question": "Ten 是數字幾？",
+    "options": ["10", "9", "11", "8"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "en014",
+    "category": "english",
+    "question": "Sun 是什麼意思？",
+    "options": ["太陽", "月亮", "星星", "雲"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "en015",
+    "category": "english",
+    "question": "Moon 是什麼意思？",
+    "options": ["月亮", "太陽", "星星", "雲"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "en016",
+    "category": "english",
+    "question": "Big 是什麼意思？",
+    "options": ["大的", "小的", "高的", "矮的"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "en017",
+    "category": "english",
+    "question": "Happy 是什麼意思？",
+    "options": ["快樂的", "悲傷的", "生氣的", "害怕的"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "en018",
+    "category": "english",
+    "question": "小寫字母 a 的大寫是什麼？",
+    "options": ["A", "B", "C", "D"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "en019",
+    "category": "english",
+    "question": "小寫字母 b 的大寫是什麼？",
+    "options": ["B", "A", "C", "D"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "en020",
+    "category": "english",
+    "question": "Ball 是什麼意思？",
+    "options": ["球", "玩具", "書", "筆"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ma001",
+    "category": "math",
+    "question": "1 + 1 = ?",
+    "options": ["2", "1", "3", "4"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ma002",
+    "category": "math",
+    "question": "2 + 1 = ?",
+    "options": ["3", "2", "4", "5"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ma003",
+    "category": "math",
+    "question": "2 + 2 = ?",
+    "options": ["4", "3", "5", "6"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ma004",
+    "category": "math",
+    "question": "3 + 2 = ?",
+    "options": ["5", "4", "6", "7"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ma005",
+    "category": "math",
+    "question": "4 + 3 = ?",
+    "options": ["7", "6", "8", "9"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ma006",
+    "category": "math",
+    "question": "5 + 5 = ?",
+    "options": ["10", "9", "11", "8"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ma007",
+    "category": "math",
+    "question": "3 - 1 = ?",
+    "options": ["2", "1", "3", "4"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ma008",
+    "category": "math",
+    "question": "5 - 2 = ?",
+    "options": ["3", "2", "4", "5"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ma009",
+    "category": "math",
+    "question": "10 - 5 = ?",
+    "options": ["5", "4", "6", "3"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ma010",
+    "category": "math",
+    "question": "哪一個數字最大？",
+    "options": ["10", "5", "3", "1"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ma011",
+    "category": "math",
+    "question": "哪一個數字最小？",
+    "options": ["1", "5", "10", "8"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ma012",
+    "category": "math",
+    "question": "圓形有幾個角？",
+    "options": ["0個", "1個", "3個", "4個"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ma013",
+    "category": "math",
+    "question": "三角形有幾個角？",
+    "options": ["3個", "2個", "4個", "5個"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ma014",
+    "category": "math",
+    "question": "正方形有幾個角？",
+    "options": ["4個", "3個", "5個", "2個"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ma015",
+    "category": "math",
+    "question": "6 + 4 = ?",
+    "options": ["10", "9", "11", "8"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ma016",
+    "category": "math",
+    "question": "7 + 3 = ?",
+    "options": ["10", "9", "11", "8"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ma017",
+    "category": "math",
+    "question": "8 - 3 = ?",
+    "options": ["5", "4", "6", "7"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ma018",
+    "category": "math",
+    "question": "9 - 4 = ?",
+    "options": ["5", "4", "6", "3"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ma019",
+    "category": "math",
+    "question": "1個蘋果加2個蘋果，一共有幾個？",
+    "options": ["3個", "2個", "4個", "5個"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ma020",
+    "category": "math",
+    "question": "5個糖果吃掉2個，還剩幾個？",
+    "options": ["3個", "2個", "4個", "5個"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ge001",
+    "category": "general",
+    "question": "小狗會發出什麼聲音？",
+    "options": ["汪汪", "喵喵", "咩咩", "哞哞"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ge002",
+    "category": "general",
+    "question": "小貓會發出什麼聲音？",
+    "options": ["喵喵", "汪汪", "咩咩", "哞哞"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ge003",
+    "category": "general",
+    "question": "太陽在哪裡升起？",
+    "options": ["東邊", "西邊", "南邊", "北邊"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ge004",
+    "category": "general",
+    "question": "一年有幾個季節？",
+    "options": ["4個", "3個", "5個", "2個"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ge005",
+    "category": "general",
+    "question": "一個星期有幾天？",
+    "options": ["7天", "6天", "5天", "8天"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ge006",
+    "category": "general",
+    "question": "小雞是從哪裡出來的？",
+    "options": ["蛋", "窩", "樹", "地"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ge007",
+    "category": "general",
+    "question": "蘋果是什麼顏色？",
+    "options": ["紅色", "藍色", "綠色", "黃色"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ge008",
+    "category": "general",
+    "question": "香蕉是什麼顏色？",
+    "options": ["黃色", "紅色", "藍色", "綠色"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ge009",
+    "category": "general",
+    "question": "下雨的時候要帶什麼？",
+    "options": ["雨傘", "帽子", "書包", "水壺"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ge010",
+    "category": "general",
+    "question": "晚上看到的是什麼？",
+    "options": ["月亮", "太陽", "彩虹", "雲"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ge011",
+    "category": "general",
+    "question": "魚住在哪裡？",
+    "options": ["水裡", "天上", "樹上", "地上"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ge012",
+    "category": "general",
+    "question": "小鳥會做什麼？",
+    "options": ["飛", "游泳", "跑步", "爬樹"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ge013",
+    "category": "general",
+    "question": "花需要什麼才會長大？",
+    "options": ["水", "玩具", "書", "糖果"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ge014",
+    "category": "general",
+    "question": "牙齒要用什麼刷？",
+    "options": ["牙刷", "毛巾", "筷子", "湯匙"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ge015",
+    "category": "general",
+    "question": "紅綠燈的紅燈代表什麼？",
+    "options": ["停", "走", "慢", "快"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ge016",
+    "category": "general",
+    "question": "綠燈代表什麼？",
+    "options": ["走", "停", "慢", "快"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ge017",
+    "category": "general",
+    "question": "冬天的天氣是什麼樣的？",
+    "options": ["冷", "熱", "溫", "暖"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ge018",
+    "category": "general",
+    "question": "夏天的天氣是什麼樣的？",
+    "options": ["熱", "冷", "涼", "溫"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ge019",
+    "category": "general",
+    "question": "蜜蜂會做什麼？",
+    "options": ["採蜜", "唱歌", "跳舞", "畫畫"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ge020",
+    "category": "general",
+    "question": "我們用什麼看東西？",
+    "options": ["眼睛", "耳朵", "鼻子", "嘴巴"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  }
+]

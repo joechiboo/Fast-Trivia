@@ -1,0 +1,84 @@
+<template>
+  <div class="min-h-screen gradient-bg flex items-center justify-center px-4">
+    <div class="max-w-md w-full bg-white/90 backdrop-blur-sm rounded-2xl shadow-2xl p-8">
+      <div class="text-center mb-8">
+        <h1 class="text-4xl font-bold text-primary-700 mb-2">Fast Trivia 🎯</h1>
+        <p class="text-gray-600">快速問答競賽</p>
+      </div>
+
+      <div class="space-y-4">
+        <input
+          v-model="playerName"
+          type="text"
+          placeholder="輸入你的暱稱"
+          class="w-full px-4 py-3 rounded-lg border-2 border-gray-300 focus:border-primary-500 focus:outline-none text-lg"
+          maxlength="12"
+          @keyup.enter="handleCreateRoom"
+        />
+
+        <button
+          @click="handleCreateRoom"
+          :disabled="!playerName.trim()"
+          class="w-full bg-primary-600 hover:bg-primary-700 disabled:bg-gray-400 text-white font-semibold py-3 rounded-lg transition-all transform hover:scale-105 active:scale-95 disabled:transform-none text-lg"
+        >
+          創建房間
+        </button>
+
+        <div class="relative">
+          <div class="absolute inset-0 flex items-center">
+            <div class="w-full border-t border-gray-300"></div>
+          </div>
+          <div class="relative flex justify-center text-sm">
+            <span class="px-2 bg-white text-gray-500">或</span>
+          </div>
+        </div>
+
+        <input
+          v-model="roomCode"
+          type="text"
+          placeholder="輸入房間代碼"
+          class="w-full px-4 py-3 rounded-lg border-2 border-gray-300 focus:border-primary-500 focus:outline-none text-lg uppercase"
+          maxlength="6"
+          @keyup.enter="handleJoinRoom"
+        />
+
+        <button
+          @click="handleJoinRoom"
+          :disabled="!playerName.trim() || !roomCode.trim()"
+          class="w-full bg-secondary-600 hover:bg-secondary-700 disabled:bg-gray-400 text-white font-semibold py-3 rounded-lg transition-all transform hover:scale-105 active:scale-95 disabled:transform-none text-lg"
+        >
+          加入房間
+        </button>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+import { ref } from 'vue'
+import { useSocket } from '../composables/useSocket'
+import { useGameStore } from '../stores/game'
+
+const playerName = ref('')
+const roomCode = ref('')
+
+const { connect, createRoom, joinRoom } = useSocket()
+const gameStore = useGameStore()
+
+// 初始化連線
+connect()
+
+const handleCreateRoom = () => {
+  if (playerName.value.trim()) {
+    gameStore.setPlayer('', playerName.value)
+    createRoom(playerName.value)
+  }
+}
+
+const handleJoinRoom = () => {
+  if (playerName.value.trim() && roomCode.value.trim()) {
+    gameStore.setPlayer('', playerName.value)
+    joinRoom(roomCode.value.toUpperCase(), playerName.value)
+  }
+}
+</script>

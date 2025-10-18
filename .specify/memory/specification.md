@@ -74,10 +74,10 @@
 
 #### 可設定項目
 - **題目分類**（單選）：
-  - 科學
-  - 科技
-  - 歷史
-  - 娛樂
+  - 國語（注音、生字、造詞）
+  - 英文（字母、單字、簡單句子）
+  - 數學（數數、加減法、圖形）
+  - 常識（動物、植物、日常生活）
   - 綜合（隨機混合）
 
 #### 固定設定
@@ -186,11 +186,12 @@
 ```typescript
 interface Question {
   id: string;
-  category: 'science' | 'technology' | 'history' | 'entertainment';
+  category: 'chinese' | 'english' | 'math' | 'general';
   question: string;
   options: [string, string, string, string]; // 4 個選項
   correctAnswer: 0 | 1 | 2 | 3; // 正確答案的索引
   explanation?: string; // 選用：答案解釋
+  ageGroup?: 'preschool' | 'grade1'; // 適合年齡層
 }
 ```
 
@@ -337,7 +338,7 @@ class Game {
 **GameSettings（遊戲設定）**
 ```typescript
 interface GameSettings {
-  category: 'science' | 'technology' | 'history' | 'entertainment' | 'mixed';
+  category: 'chinese' | 'english' | 'math' | 'general' | 'mixed';
   questionCount: 5; // 固定 5 題
 }
 ```
@@ -510,10 +511,10 @@ Server -> All in Room: question_result
 ┌─────────────────────────┐
 │   選擇題目分類          │
 │                         │
-│   ( ) 科學 🔬           │
-│   (•) 科技 💻           │
-│   ( ) 歷史 📚           │
-│   ( ) 娛樂 🎬           │
+│   ( ) 國語 📖           │
+│   (•) 英文 🔤           │
+│   ( ) 數學 🔢           │
+│   ( ) 常識 🌍           │
 │   ( ) 綜合 🎯           │
 │                         │
 │   共 5 題               │
