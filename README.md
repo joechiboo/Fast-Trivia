@@ -4,7 +4,7 @@
 
 ## 🌐 線上體驗
 
-- **前端**: https://joechiboo.github.io/Fast-Trivia/ (部署中...)
+- **前端**: https://joechiboo.github.io/Fast-Trivia/ ✅
 - **後端**: https://fast-trivia.onrender.com ✅
   - 健康檢查: https://fast-trivia.onrender.com/health
 
@@ -182,28 +182,41 @@ Fast-Trivia/
 
 ## 🚀 部署
 
-### 前端部署（Vercel）
+### 前端部署（GitHub Pages）
 
+本專案使用 GitHub Actions 自動部署到 GitHub Pages。
+
+**自動部署流程**：
+1. 推送程式碼到 `main` 分支
+2. GitHub Actions 自動執行建置和部署
+3. 網站發布到 `gh-pages` 分支
+4. 可透過 https://joechiboo.github.io/Fast-Trivia/ 訪問
+
+**本地建置**：
 ```bash
 cd client
 npm run build
-# 上傳 dist/ 資料夾到 Vercel
+# 產出檔案在 dist/ 資料夾
 ```
 
-記得設定環境變數：
-- `VITE_SERVER_URL`: 後端伺服器網址
+**環境變數設定**（`.env.production`）：
+- `VITE_SERVER_URL`: https://fast-trivia.onrender.com
 
-### 後端部署（Render / Railway）
+### 後端部署（Render.com）
 
-```bash
-cd server
-npm run build
-# 上傳到 Render 或 Railway
-```
+**部署設定**：
+- Build Command: `cd server && npm install && npm run build`
+- Start Command: `cd server && npm start`
+- Environment: Node
 
-記得設定環境變數：
-- `PORT`: 3000
-- `CLIENT_URL`: 前端網址
+**環境變數設定**：
+- `PORT`: 3000（Render 自動設定）
+- `CLIENT_URL`: https://joechiboo.github.io（生產環境）
+- `NODE_ENV`: production
+
+**重要提醒**：
+- TypeScript 和 `@types/*` 必須放在 `dependencies`（非 `devDependencies`）
+- Render 會自動在每次推送 `main` 分支時重新部署
 
 ## 📝 專案狀態
 
