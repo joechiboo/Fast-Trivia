@@ -12,10 +12,10 @@ const httpServer = createServer(app)
 
 // CORS 設定 - 開發環境接受所有 localhost
 const isDevelopment = process.env.NODE_ENV !== 'production'
-const allowedOrigins = [
+const allowedOrigins: string[] = [
   'https://joechiboo.github.io',
   process.env.CLIENT_URL
-].filter(Boolean)
+].filter((origin): origin is string => Boolean(origin))
 
 const corsOptions = {
   origin: isDevelopment
