@@ -19,6 +19,7 @@ export const useGameStore = defineStore('game', () => {
   const currentQuestion = ref<Question | null>(null)
   const lastResult = ref<QuestionResult | null>(null)
   const selectedAnswer = ref<number | null>(null)
+  const nextQuestionCountdown = ref<number>(0)
 
   // Computed
   const isHost = computed(() => {
@@ -75,6 +76,10 @@ export const useGameStore = defineStore('game', () => {
     lastResult.value = result
   }
 
+  function setNextQuestionCountdown(count: number) {
+    nextQuestionCountdown.value = count
+  }
+
   function reset() {
     roomId.value = ''
     playerId.value = ''
@@ -101,6 +106,7 @@ export const useGameStore = defineStore('game', () => {
     currentQuestion,
     lastResult,
     selectedAnswer,
+    nextQuestionCountdown,
     // Computed
     isHost,
     currentPlayer,
@@ -115,6 +121,7 @@ export const useGameStore = defineStore('game', () => {
     setTimeRemaining,
     selectAnswer,
     setQuestionResult,
+    setNextQuestionCountdown,
     reset
   }
 })

@@ -10,17 +10,50 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
+import { useGameStore } from '../stores/game'
 
-const count = ref(3)
+const gameStore = useGameStore()
+const count = ref<number | string>(3)
+
+// 監聽後端的倒數事件，與後端同步
+let unsubscribe: (() => void) | null = null
 
 onMounted(() => {
-  const interval = setInterval(() => {
-    count.value--
-    if (count.value === 0) {
-      count.value = 'GO!'
-      clearInterval(interval)
+  // 如果後端有發送 countdown 事件，會透過 store 更新
+  // 否則使用本地倒數作為備案
+  let hasReceivedServerCountdown = false
+
+  const checkTimeout = setTimeout(() => {
+    if (!hasReceivedServerCountdown) {
+      // 如果 100ms 內沒收到後端倒數，使用本地倒數
+      startLocalCountdown()
     }
-  }, 1000)
+  }, 100)
+
+  // 簡單的本地倒數備案
+  const startLocalCountdown = () => {
+    const interval = setInterval(() => {
+      if (typeof count.value === 'number') {
+        count.value--
+        if (count.value === 0) {
+          count.value = 'GO!'
+          clearInterval(interval)
+        }
+      }
+    }, 1000)
+
+    unsubscribe = () => clearInterval(interval)
+  }
+
+  return () => {
+    clearTimeout(checkTimeout)
+  }
+})
+
+onUnmounted(() => {
+  if (unsubscribe) {
+    unsubscribe()
+  }
 })
 </script>

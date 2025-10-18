@@ -77,8 +77,11 @@
       </div>
 
       <!-- 下一題倒數 -->
-      <div class="text-center text-gray-600">
-        <p class="animate-pulse">5 秒後進入下一題...</p>
+      <div class="text-center">
+        <div v-if="gameStore.nextQuestionCountdown > 0" class="text-6xl font-bold text-primary-600 animate-pulse">
+          {{ gameStore.nextQuestionCountdown }}
+        </div>
+        <p class="text-gray-600 mt-2">準備下一題...</p>
       </div>
     </div>
   </div>

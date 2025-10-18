@@ -36,24 +36,48 @@
       </div>
 
       <!-- 遊戲設定 (房主才能看到) -->
-      <div v-if="gameStore.isHost" class="mb-6">
-        <h3 class="text-lg font-semibold text-gray-800 mb-3">選擇題目分類</h3>
-        <div class="space-y-2">
-          <button
-            v-for="cat in categories"
-            :key="cat.value"
-            @click="selectedCategory = cat.value"
-            class="w-full flex items-center gap-3 px-4 py-3 rounded-lg border-2 transition-all"
-            :class="selectedCategory === cat.value
-              ? 'border-primary-500 bg-primary-50'
-              : 'border-gray-200 hover:border-gray-300'"
-          >
-            <span class="text-2xl">{{ cat.emoji }}</span>
-            <span class="font-medium text-gray-800">{{ cat.label }}</span>
-            <span v-if="selectedCategory === cat.value" class="ml-auto text-primary-600">✓</span>
-          </button>
+      <div v-if="gameStore.isHost" class="mb-6 space-y-4">
+        <!-- 題目分類 -->
+        <div>
+          <h3 class="text-lg font-semibold text-gray-800 mb-3">選擇題目分類</h3>
+          <div class="space-y-2">
+            <button
+              v-for="cat in categories"
+              :key="cat.value"
+              @click="selectedCategory = cat.value"
+              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg border-2 transition-all"
+              :class="selectedCategory === cat.value
+                ? 'border-primary-500 bg-primary-50'
+                : 'border-gray-200 hover:border-gray-300'"
+            >
+              <span class="text-2xl">{{ cat.emoji }}</span>
+              <span class="font-medium text-gray-800">{{ cat.label }}</span>
+              <span v-if="selectedCategory === cat.value" class="ml-auto text-primary-600">✓</span>
+            </button>
+          </div>
         </div>
-        <p class="text-center text-gray-500 text-sm mt-3">共 5 題</p>
+
+        <!-- 難度選擇 -->
+        <div>
+          <h3 class="text-lg font-semibold text-gray-800 mb-3">選擇難度</h3>
+          <div class="space-y-2">
+            <button
+              v-for="level in ageLevels"
+              :key="level.value"
+              @click="selectedAgeGroup = level.value"
+              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg border-2 transition-all"
+              :class="selectedAgeGroup === level.value
+                ? 'border-secondary-500 bg-secondary-50'
+                : 'border-gray-200 hover:border-gray-300'"
+            >
+              <span class="text-2xl">{{ level.emoji }}</span>
+              <span class="font-medium text-gray-800">{{ level.label }}</span>
+              <span v-if="selectedAgeGroup === level.value" class="ml-auto text-secondary-600">✓</span>
+            </button>
+          </div>
+        </div>
+
+        <p class="text-center text-gray-500 text-sm">共 5 題</p>
       </div>
 
       <!-- 等待提示 (非房主) -->
@@ -68,10 +92,9 @@
         <button
           v-if="gameStore.isHost"
           @click="handleStartGame"
-          :disabled="gameStore.players.length < 2"
-          class="w-full bg-green-600 hover:bg-green-700 disabled:bg-gray-400 text-white font-semibold py-3 rounded-lg transition-all transform hover:scale-105 active:scale-95 disabled:transform-none text-lg"
+          class="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 rounded-lg transition-all transform hover:scale-105 active:scale-95 text-lg"
         >
-          {{ gameStore.players.length < 2 ? '至少需要 2 位玩家' : '開始遊戲' }}
+          開始遊戲 {{ gameStore.players.length === 1 ? '(單人練習)' : `(${gameStore.players.length} 人)` }}
         </button>
 
         <button
@@ -89,12 +112,13 @@
 import { ref } from 'vue'
 import { useGameStore } from '../stores/game'
 import { useSocket } from '../composables/useSocket'
-import type { Category } from '../types/game.types'
+import type { Category, AgeGroup } from '../types/game.types'
 
 const gameStore = useGameStore()
 const { startGame, leaveRoom } = useSocket()
 
 const selectedCategory = ref<Category>('mixed')
+const selectedAgeGroup = ref<AgeGroup>('preschool')
 const copied = ref(false)
 
 const categories = [
@@ -103,6 +127,11 @@ const categories = [
   { value: 'math' as Category, label: '數學', emoji: '🔢' },
   { value: 'general' as Category, label: '常識', emoji: '🌍' },
   { value: 'mixed' as Category, label: '綜合', emoji: '🎯' },
+]
+
+const ageLevels = [
+  { value: 'preschool' as AgeGroup, label: '幼稚園中班 (4歲)', emoji: '🧸' },
+  { value: 'grade2' as AgeGroup, label: '小學二年級 (7歲)', emoji: '📚' },
 ]
 
 const copyRoomCode = async () => {
@@ -120,7 +149,8 @@ const copyRoomCode = async () => {
 const handleStartGame = () => {
   startGame({
     category: selectedCategory.value,
-    questionCount: 5
+    questionCount: 5,
+    ageGroup: selectedAgeGroup.value
   })
 }
 

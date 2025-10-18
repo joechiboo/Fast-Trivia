@@ -18,9 +18,12 @@ export interface Player {
   isHost: boolean
 }
 
+export type AgeGroup = 'preschool' | 'grade2'
+
 export interface GameSettings {
   category: Category
   questionCount: 5
+  ageGroup?: AgeGroup
 }
 
 export interface Answer {

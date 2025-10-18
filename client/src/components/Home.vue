@@ -62,11 +62,8 @@ import { useGameStore } from '../stores/game'
 const playerName = ref('')
 const roomCode = ref('')
 
-const { connect, createRoom, joinRoom } = useSocket()
+const { createRoom, joinRoom } = useSocket()
 const gameStore = useGameStore()
-
-// 初始化連線
-connect()
 
 const handleCreateRoom = () => {
   if (playerName.value.trim()) {

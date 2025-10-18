@@ -62,14 +62,22 @@ export function useSocket() {
 
     socket.value.on('question_result', (data: { result: QuestionResult }) => {
       gameStore.setQuestionResult(data.result)
-      gameStore.updatePlayers(data.result.scoreboard.map(s => ({
-        id: s.playerId,
-        name: s.playerName,
-        score: s.score,
-        currentStreak: s.currentStreak,
-        isHost: false // 這裡需要從 players 中保留 isHost 狀態
-      })))
+      // 更新分數，但保留 isHost 狀態
+      gameStore.updatePlayers(data.result.scoreboard.map(s => {
+        const existingPlayer = gameStore.players.find(p => p.id === s.playerId)
+        return {
+          id: s.playerId,
+          name: s.playerName,
+          score: s.score,
+          currentStreak: s.currentStreak,
+          isHost: existingPlayer?.isHost || false
+        }
+      }))
       gameStore.setGameStatus('result')
+    })
+
+    socket.value.on('next_question_countdown', (data: { count: number }) => {
+      gameStore.setNextQuestionCountdown(data.count)
     })
 
     socket.value.on('game_ended', (data: { finalScoreboard: QuestionResult['scoreboard'] }) => {
@@ -130,9 +138,10 @@ export function useSocket() {
     }
   }
 
-  onUnmounted(() => {
-    disconnect()
-  })
+  // 移除 onUnmounted，讓 Socket 連線在整個應用程式生命週期中保持
+  // onUnmounted(() => {
+  //   disconnect()
+  // })
 
   return {
     connect,
