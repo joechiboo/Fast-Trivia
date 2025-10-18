@@ -160,6 +160,166 @@
     "ageGroup": "grade1"
   },
   {
+    "id": "ch021",
+    "category": "chinese",
+    "question": "「ㄍㄜ ㄍㄜ」是什麼字？",
+    "options": ["哥哥", "歌歌", "格格", "各各"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ch022",
+    "category": "chinese",
+    "question": "「ㄇㄟˋ ㄇㄟ˙」是什麼字？",
+    "options": ["妹妹", "美美", "每每", "梅梅"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ch023",
+    "category": "chinese",
+    "question": "「黑」的相反是什麼？",
+    "options": ["白", "紅", "黃", "藍"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ch024",
+    "category": "chinese",
+    "question": "「哭」的相反是什麼？",
+    "options": ["笑", "叫", "跳", "跑"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ch025",
+    "category": "chinese",
+    "question": "「前」的相反是什麼？",
+    "options": ["後", "旁", "邊", "中"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ch026",
+    "category": "chinese",
+    "question": "「新」的相反是什麼？",
+    "options": ["舊", "老", "破", "壞"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ch027",
+    "category": "chinese",
+    "question": "「輕」的相反是什麼？",
+    "options": ["重", "大", "小", "高"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ch028",
+    "category": "chinese",
+    "question": "「熱」的相反是什麼？",
+    "options": ["冷", "涼", "溫", "暖"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ch029",
+    "category": "chinese",
+    "question": "「勇敢」的相反詞是什麼？",
+    "options": ["膽小", "害怕", "恐懼", "擔心"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ch030",
+    "category": "chinese",
+    "question": "「謙虛」的相反詞是什麼？",
+    "options": ["驕傲", "自大", "得意", "自豪"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ch031",
+    "category": "chinese",
+    "question": "「節省」的相反詞是什麼？",
+    "options": ["浪費", "花費", "耗費", "消費"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ch032",
+    "category": "chinese",
+    "question": "「勤勞」的相反詞是什麼？",
+    "options": ["懶惰", "偷懶", "閒散", "怠慢"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ch033",
+    "category": "chinese",
+    "question": "「誠實」的相反詞是什麼？",
+    "options": ["虛偽", "說謊", "欺騙", "假裝"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ch034",
+    "category": "chinese",
+    "question": "「慷慨」的相反詞是什麼？",
+    "options": ["吝嗇", "小氣", "貪心", "自私"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ch035",
+    "category": "chinese",
+    "question": "「樂觀」的相反詞是什麼？",
+    "options": ["悲觀", "消極", "沮喪", "失望"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ch036",
+    "category": "chinese",
+    "question": "「複雜」的相反詞是什麼？",
+    "options": ["簡單", "容易", "輕鬆", "方便"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ch037",
+    "category": "chinese",
+    "question": "「寬廣」的相反詞是什麼？",
+    "options": ["狹窄", "窄小", "擁擠", "狹小"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ch038",
+    "category": "chinese",
+    "question": "「堅強」的相反詞是什麼？",
+    "options": ["脆弱", "軟弱", "虛弱", "薄弱"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ch039",
+    "category": "chinese",
+    "question": "「光明」的相反詞是什麼？",
+    "options": ["黑暗", "陰暗", "昏暗", "幽暗"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ch040",
+    "category": "chinese",
+    "question": "「粗糙」的相反詞是什麼？",
+    "options": ["光滑", "平滑", "柔滑", "細緻"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
     "id": "en001",
     "category": "english",
     "question": "Apple 是什麼意思？",
@@ -318,6 +478,126 @@
     "options": ["球", "玩具", "書", "筆"],
     "correctAnswer": 0,
     "ageGroup": "preschool"
+  },
+  {
+    "id": "en021",
+    "category": "english",
+    "question": "Elephant 是什麼動物？",
+    "options": ["大象", "獅子", "老虎", "熊"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "en022",
+    "category": "english",
+    "question": "Yellow 是什麼顏色？",
+    "options": ["黃色", "紅色", "藍色", "綠色"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "en023",
+    "category": "english",
+    "question": "Green 是什麼顏色？",
+    "options": ["綠色", "紅色", "藍色", "黃色"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "en024",
+    "category": "english",
+    "question": "Book 是什麼意思？",
+    "options": ["書", "筆", "桌子", "椅子"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "en025",
+    "category": "english",
+    "question": "Water 是什麼意思？",
+    "options": ["水", "牛奶", "果汁", "茶"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "en026",
+    "category": "english",
+    "question": "Beautiful 是什麼意思？",
+    "options": ["美麗的", "醜陋的", "可愛的", "漂亮的"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "en027",
+    "category": "english",
+    "question": "Difficult 是什麼意思？",
+    "options": ["困難的", "容易的", "簡單的", "輕鬆的"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "en028",
+    "category": "english",
+    "question": "Important 是什麼意思？",
+    "options": ["重要的", "次要的", "普通的", "一般的"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "en029",
+    "category": "english",
+    "question": "Wonderful 是什麼意思？",
+    "options": ["極好的", "糟糕的", "普通的", "一般的"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "en030",
+    "category": "english",
+    "question": "Dangerous 是什麼意思？",
+    "options": ["危險的", "安全的", "平安的", "保險的"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "en031",
+    "category": "english",
+    "question": "Interesting 是什麼意思？",
+    "options": ["有趣的", "無聊的", "乏味的", "枯燥的"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "en032",
+    "category": "english",
+    "question": "Excellent 是什麼意思？",
+    "options": ["優秀的", "普通的", "平庸的", "差勁的"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "en033",
+    "category": "english",
+    "question": "Comfortable 是什麼意思？",
+    "options": ["舒適的", "不舒服的", "難受的", "痛苦的"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "en034",
+    "category": "english",
+    "question": "Successful 是什麼意思？",
+    "options": ["成功的", "失敗的", "挫敗的", "落敗的"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "en035",
+    "category": "english",
+    "question": "Generous 是什麼意思？",
+    "options": ["慷慨的", "吝嗇的", "小氣的", "貪婪的"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
   },
   {
     "id": "ma001",
@@ -480,6 +760,126 @@
     "ageGroup": "grade1"
   },
   {
+    "id": "ma021",
+    "category": "math",
+    "question": "3 + 3 = ?",
+    "options": ["6", "5", "7", "4"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ma022",
+    "category": "math",
+    "question": "4 - 2 = ?",
+    "options": ["2", "1", "3", "4"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ma023",
+    "category": "math",
+    "question": "8 + 2 = ?",
+    "options": ["10", "9", "11", "12"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ma024",
+    "category": "math",
+    "question": "9 + 1 = ?",
+    "options": ["10", "9", "11", "8"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ma025",
+    "category": "math",
+    "question": "6 - 3 = ?",
+    "options": ["3", "2", "4", "5"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ma026",
+    "category": "math",
+    "question": "25 × 4 = ?",
+    "options": ["100", "90", "110", "80"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ma027",
+    "category": "math",
+    "question": "144 ÷ 12 = ?",
+    "options": ["12", "10", "14", "11"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ma028",
+    "category": "math",
+    "question": "36 × 5 = ?",
+    "options": ["180", "170", "190", "160"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ma029",
+    "category": "math",
+    "question": "256 ÷ 8 = ?",
+    "options": ["32", "30", "34", "28"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ma030",
+    "category": "math",
+    "question": "48 × 3 = ?",
+    "options": ["144", "134", "154", "124"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ma031",
+    "category": "math",
+    "question": "72 ÷ 9 = ?",
+    "options": ["8", "7", "9", "6"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ma032",
+    "category": "math",
+    "question": "125 + 375 = ?",
+    "options": ["500", "490", "510", "480"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ma033",
+    "category": "math",
+    "question": "1000 - 456 = ?",
+    "options": ["544", "534", "554", "564"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ma034",
+    "category": "math",
+    "question": "15 × 6 = ?",
+    "options": ["90", "80", "100", "85"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ma035",
+    "category": "math",
+    "question": "96 ÷ 6 = ?",
+    "options": ["16", "15", "17", "14"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
     "id": "ge001",
     "category": "general",
     "question": "小狗會發出什麼聲音？",
@@ -638,5 +1038,125 @@
     "options": ["眼睛", "耳朵", "鼻子", "嘴巴"],
     "correctAnswer": 0,
     "ageGroup": "preschool"
+  },
+  {
+    "id": "ge021",
+    "category": "general",
+    "question": "牛會發出什麼聲音？",
+    "options": ["哞哞", "汪汪", "喵喵", "咩咩"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ge022",
+    "category": "general",
+    "question": "羊會發出什麼聲音？",
+    "options": ["咩咩", "哞哞", "汪汪", "喵喵"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ge023",
+    "category": "general",
+    "question": "企鵝住在哪裡？",
+    "options": ["南極", "北極", "沙漠", "森林"],
+    "correctAnswer": 0,
+    "ageGroup": "grade1"
+  },
+  {
+    "id": "ge024",
+    "category": "general",
+    "question": "草莓是什麼顏色？",
+    "options": ["紅色", "黃色", "綠色", "藍色"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ge025",
+    "category": "general",
+    "question": "葡萄是什麼顏色？",
+    "options": ["紫色", "紅色", "黃色", "橙色"],
+    "correctAnswer": 0,
+    "ageGroup": "preschool"
+  },
+  {
+    "id": "ge026",
+    "category": "general",
+    "question": "台灣的首都是哪裡？",
+    "options": ["台北", "台中", "高雄", "台南"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ge027",
+    "category": "general",
+    "question": "地球繞著什麼轉？",
+    "options": ["太陽", "月亮", "火星", "金星"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ge028",
+    "category": "general",
+    "question": "一天有幾小時？",
+    "options": ["24小時", "20小時", "30小時", "12小時"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ge029",
+    "category": "general",
+    "question": "植物進行光合作用需要什麼？",
+    "options": ["陽光", "月光", "星光", "燈光"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ge030",
+    "category": "general",
+    "question": "水的三態是固態、液態和什麼？",
+    "options": ["氣態", "膠態", "漿態", "粉態"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ge031",
+    "category": "general",
+    "question": "台灣最高的山是哪一座？",
+    "options": ["玉山", "雪山", "合歡山", "阿里山"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ge032",
+    "category": "general",
+    "question": "蝴蝶的幼蟲叫什麼？",
+    "options": ["毛毛蟲", "蚯蚓", "蝌蚪", "小鳥"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ge033",
+    "category": "general",
+    "question": "哪一個是可再生能源？",
+    "options": ["太陽能", "煤炭", "石油", "天然氣"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ge034",
+    "category": "general",
+    "question": "人體最大的器官是什麼？",
+    "options": ["皮膚", "心臟", "肝臟", "大腦"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
+  },
+  {
+    "id": "ge035",
+    "category": "general",
+    "question": "鯨魚是什麼動物？",
+    "options": ["哺乳類", "魚類", "爬蟲類", "兩棲類"],
+    "correctAnswer": 0,
+    "ageGroup": "grade4"
   }
 ]

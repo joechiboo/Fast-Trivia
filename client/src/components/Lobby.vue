@@ -130,8 +130,9 @@ const categories = [
 ]
 
 const ageLevels = [
-  { value: 'preschool' as AgeGroup, label: '幼稚園中班 (4歲)', emoji: '🧸' },
-  { value: 'grade2' as AgeGroup, label: '小學二年級 (7歲)', emoji: '📚' },
+  { value: 'preschool' as AgeGroup, label: '幼稚園中班 (4-6歲)', emoji: '🧸' },
+  { value: 'grade1' as AgeGroup, label: '小學一年級 (7歲)', emoji: '📚' },
+  { value: 'grade4' as AgeGroup, label: '小學四年級 (10歲)', emoji: '🎓' },
 ]
 
 const copyRoomCode = async () => {

@@ -28,7 +28,8 @@
       "Bash(cmd /c:*)",
       "Bash(curl:*)",
       "Bash(npm run build:*)",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "Bash(gh run list:*)"
     ],
     "deny": [],
     "ask": []
