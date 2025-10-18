@@ -12,10 +12,15 @@ const httpServer = createServer(app)
 
 // CORS 設定 - 開發環境接受所有 localhost
 const isDevelopment = process.env.NODE_ENV !== 'production'
+const allowedOrigins = [
+  'https://joechiboo.github.io',
+  process.env.CLIENT_URL
+].filter(Boolean)
+
 const corsOptions = {
   origin: isDevelopment
     ? /^http:\/\/localhost:\d+$/ // 開發環境：接受任何 localhost port
-    : process.env.CLIENT_URL, // 生產環境：只接受指定網址
+    : allowedOrigins, // 生產環境：允許 GitHub Pages 和自訂網址
   credentials: true
 }
 
