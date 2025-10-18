@@ -10,18 +10,20 @@ import { handleGameEvents } from './socket/handlers/gameHandler'
 const app = express()
 const httpServer = createServer(app)
 
-// CORS 設定
-app.use(cors({
-  origin: process.env.CLIENT_URL || 'http://localhost:5173',
+// CORS 設定 - 開發環境接受所有 localhost
+const isDevelopment = process.env.NODE_ENV !== 'production'
+const corsOptions = {
+  origin: isDevelopment
+    ? /^http:\/\/localhost:\d+$/ // 開發環境：接受任何 localhost port
+    : process.env.CLIENT_URL, // 生產環境：只接受指定網址
   credentials: true
-}))
+}
+
+app.use(cors(corsOptions))
 
 // Socket.IO 設定
 const io = new Server(httpServer, {
-  cors: {
-    origin: process.env.CLIENT_URL || 'http://localhost:5173',
-    credentials: true
-  }
+  cors: corsOptions
 })
 
 // 房間管理器
