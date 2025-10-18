@@ -11,9 +11,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
-import { useGameStore } from '../stores/game'
 
-const gameStore = useGameStore()
 const count = ref<number | string>(3)
 
 // 監聽後端的倒數事件，與後端同步

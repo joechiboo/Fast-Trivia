@@ -1,4 +1,4 @@
-import { ref, onUnmounted } from 'vue'
+import { ref } from 'vue'
 import { io, Socket } from 'socket.io-client'
 import { useGameStore } from '../stores/game'
 import type { Player, Question, QuestionResult, GameSettings } from '../types/game.types'
@@ -80,7 +80,7 @@ export function useSocket() {
       gameStore.setNextQuestionCountdown(data.count)
     })
 
-    socket.value.on('game_ended', (data: { finalScoreboard: QuestionResult['scoreboard'] }) => {
+    socket.value.on('game_ended', () => {
       gameStore.setGameStatus('ended')
     })
 

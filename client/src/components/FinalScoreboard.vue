@@ -13,21 +13,21 @@
           <!-- 第二名 -->
           <div v-if="topThree[1]" class="text-center order-1">
             <div class="text-6xl mb-2">🥈</div>
-            <div class="font-bold text-gray-800">{{ topThree[1].playerName }}</div>
+            <div class="font-bold text-gray-800">{{ topThree[1].name }}</div>
             <div class="text-2xl font-bold text-primary-600">{{ topThree[1].score }}</div>
           </div>
 
           <!-- 第一名 -->
           <div v-if="topThree[0]" class="text-center order-2 transform scale-110">
             <div class="text-8xl mb-2">🥇</div>
-            <div class="font-bold text-gray-800 text-lg">{{ topThree[0].playerName }}</div>
+            <div class="font-bold text-gray-800 text-lg">{{ topThree[0].name }}</div>
             <div class="text-3xl font-bold text-yellow-600">{{ topThree[0].score }}</div>
           </div>
 
           <!-- 第三名 -->
           <div v-if="topThree[2]" class="text-center order-3">
             <div class="text-6xl mb-2">🥉</div>
-            <div class="font-bold text-gray-800">{{ topThree[2].playerName }}</div>
+            <div class="font-bold text-gray-800">{{ topThree[2].name }}</div>
             <div class="text-2xl font-bold text-primary-600">{{ topThree[2].score }}</div>
           </div>
         </div>
@@ -39,9 +39,9 @@
         <div class="space-y-2">
           <div
             v-for="(player, index) in allPlayers"
-            :key="player.playerId"
+            :key="player.id"
             class="flex items-center gap-3 p-4 rounded-xl"
-            :class="player.playerId === gameStore.playerId
+            :class="player.id === gameStore.playerId
               ? 'bg-primary-100 border-2 border-primary-500'
               : 'bg-white'"
           >
@@ -49,7 +49,7 @@
               {{ index + 1 }}.
             </div>
             <div class="flex-1 font-semibold text-gray-800">
-              {{ player.playerName }}
+              {{ player.name }}
             </div>
             <div class="text-right">
               <div class="text-sm text-gray-500">總分</div>

@@ -2,6 +2,12 @@
 
 適合小朋友的多人即時問答遊戲
 
+## 🌐 線上體驗
+
+- **前端**: https://joechiboo.github.io/Fast-Trivia/ (部署中...)
+- **後端**: https://fast-trivia.onrender.com ✅
+  - 健康檢查: https://fast-trivia.onrender.com/health
+
 ## 📖 專案簡介
 
 Fast Trivia 是一個專為 4-7 歲小朋友設計的問答遊戲，支援 2-8 人即時連線對戰。透過有趣的問答方式，讓孩子在遊戲中學習國語、英文、數學和常識！
