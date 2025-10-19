@@ -80,10 +80,12 @@ export class Game {
     this.submittedAnswers.clear()
     this.resultsCalculated = false // 重置結果計算標記
 
-    // 隨機打亂選項順序
+    // 隨機打亂選項順序並儲存
     const question = this.getCurrentQuestion()
     if (question) {
-      return this.shuffleOptions(question)
+      const shuffled = this.shuffleOptions(question)
+      this.questions[this.currentQuestionIndex] = shuffled // 儲存打亂後的題目
+      return shuffled
     }
     return null
   }
@@ -165,8 +167,15 @@ export class Game {
       const answer = this.submittedAnswers.get(player.id)
 
       if (!answer) {
-        // 未作答
+        // 未作答 - 也要記錄到答題歷史
         player.currentStreak = 0
+        player.submitAnswer(
+          currentQuestion.id,
+          -1, // 使用 -1 表示未作答
+          this.answerDeadline,
+          false,
+          0
+        )
         return {
           playerId: player.id,
           playerName: player.name,
@@ -184,9 +193,9 @@ export class Game {
       if (isCorrect) {
         // 計分公式：基礎分 + 時間加成 + 連勝加成
         const basePoints = 100
-        const timeBonus = (timeRemaining / 10) * 50
+        const timeBonus = (timeRemaining / 10) * 100 // 提高時間加成權重，最多100分
         const streakBonus = player.currentStreak * 20
-        earnedPoints = Math.round(basePoints + timeBonus + streakBonus)
+        earnedPoints = Math.floor(basePoints + timeBonus + streakBonus) // 無條件捨去保留差異
       }
 
       // 更新玩家狀態
