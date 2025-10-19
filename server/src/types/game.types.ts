@@ -7,7 +7,7 @@ export interface Question {
   options: [string, string, string, string]
   correctAnswer: 0 | 1 | 2 | 3
   explanation?: string
-  ageGroup?: 'preschool' | 'grade1' | 'grade2' | 'grade4'
+  ageGroup?: 'preschool' | 'grade1' | 'grade2' | 'grade4' | 'grade5' | 'grade6'
 }
 
 export interface Player {

@@ -1158,5 +1158,325 @@
     "options": ["哺乳類", "魚類", "爬蟲類", "兩棲類"],
     "correctAnswer": 0,
     "ageGroup": "grade4"
+  },
+  {
+    "id": "ch041",
+    "category": "chinese",
+    "question": "「囫圇吞棗」的意思是？",
+    "options": ["不加思索就接受", "仔細思考", "慢慢品嚐", "小心謹慎"],
+    "correctAnswer": 0,
+    "ageGroup": "grade5"
+  },
+  {
+    "id": "ch042",
+    "category": "chinese",
+    "question": "「一諾千金」的意思是？",
+    "options": ["信守承諾", "價值很高", "很有錢", "很慷慨"],
+    "correctAnswer": 0,
+    "ageGroup": "grade5"
+  },
+  {
+    "id": "ch043",
+    "category": "chinese",
+    "question": "「杯弓蛇影」形容什麼？",
+    "options": ["疑神疑鬼", "喝酒", "打獵", "害怕蛇"],
+    "correctAnswer": 0,
+    "ageGroup": "grade5"
+  },
+  {
+    "id": "ch044",
+    "category": "chinese",
+    "question": "「畫蛇添足」的意思是？",
+    "options": ["多此一舉", "很會畫畫", "幫助別人", "認真做事"],
+    "correctAnswer": 0,
+    "ageGroup": "grade5"
+  },
+  {
+    "id": "ch045",
+    "category": "chinese",
+    "question": "「守株待兔」比喻什麼？",
+    "options": ["不勞而獲", "耐心等待", "勤勞工作", "喜歡兔子"],
+    "correctAnswer": 0,
+    "ageGroup": "grade5"
+  },
+  {
+    "id": "en036",
+    "category": "english",
+    "question": "Which word means '環境'?",
+    "options": ["Environment", "Entertainment", "Encouragement", "Employment"],
+    "correctAnswer": 0,
+    "ageGroup": "grade5"
+  },
+  {
+    "id": "en037",
+    "category": "english",
+    "question": "Choose the correct sentence:",
+    "options": ["She has been studying for 2 hours.", "She have been studying for 2 hours.", "She been studying for 2 hours.", "She has studying for 2 hours."],
+    "correctAnswer": 0,
+    "ageGroup": "grade5"
+  },
+  {
+    "id": "en038",
+    "category": "english",
+    "question": "What is the past tense of 'bring'?",
+    "options": ["Brought", "Bringed", "Brang", "Bringt"],
+    "correctAnswer": 0,
+    "ageGroup": "grade5"
+  },
+  {
+    "id": "en039",
+    "category": "english",
+    "question": "Which word is a synonym of 'enormous'?",
+    "options": ["Huge", "Tiny", "Medium", "Small"],
+    "correctAnswer": 0,
+    "ageGroup": "grade5"
+  },
+  {
+    "id": "en040",
+    "category": "english",
+    "question": "What does 'ancient' mean?",
+    "options": ["Very old", "Very new", "Very fast", "Very slow"],
+    "correctAnswer": 0,
+    "ageGroup": "grade5"
+  },
+  {
+    "id": "ma036",
+    "category": "math",
+    "question": "36 的平方根是多少？",
+    "options": ["6", "5", "7", "8"],
+    "correctAnswer": 0,
+    "ageGroup": "grade5"
+  },
+  {
+    "id": "ma037",
+    "category": "math",
+    "question": "0.5 等於幾分之幾？",
+    "options": ["1/2", "1/3", "1/4", "1/5"],
+    "correctAnswer": 0,
+    "ageGroup": "grade5"
+  },
+  {
+    "id": "ma038",
+    "category": "math",
+    "question": "一個長方形長 8 公分，寬 5 公分，周長是多少？",
+    "options": ["26 公分", "24 公分", "28 公分", "30 公分"],
+    "correctAnswer": 0,
+    "ageGroup": "grade5"
+  },
+  {
+    "id": "ma039",
+    "category": "math",
+    "question": "3/4 + 1/4 = ?",
+    "options": ["1", "1/2", "2/4", "4/8"],
+    "correctAnswer": 0,
+    "ageGroup": "grade5"
+  },
+  {
+    "id": "ma040",
+    "category": "math",
+    "question": "一打有幾個？",
+    "options": ["12 個", "10 個", "15 個", "20 個"],
+    "correctAnswer": 0,
+    "ageGroup": "grade5"
+  },
+  {
+    "id": "ge036",
+    "category": "general",
+    "question": "台灣有幾個直轄市？",
+    "options": ["6 個", "5 個", "7 個", "8 個"],
+    "correctAnswer": 0,
+    "ageGroup": "grade5"
+  },
+  {
+    "id": "ge037",
+    "category": "general",
+    "question": "光合作用會產生什麼氣體？",
+    "options": ["氧氣", "二氧化碳", "氮氣", "氫氣"],
+    "correctAnswer": 0,
+    "ageGroup": "grade5"
+  },
+  {
+    "id": "ge038",
+    "category": "general",
+    "question": "台灣最長的河流是？",
+    "options": ["濁水溪", "淡水河", "高屏溪", "大甲溪"],
+    "correctAnswer": 0,
+    "ageGroup": "grade5"
+  },
+  {
+    "id": "ge039",
+    "category": "general",
+    "question": "一年有幾個月是 31 天？",
+    "options": ["7 個月", "6 個月", "8 個月", "5 個月"],
+    "correctAnswer": 0,
+    "ageGroup": "grade5"
+  },
+  {
+    "id": "ge040",
+    "category": "general",
+    "question": "蝙蝠用什麼來定位？",
+    "options": ["超音波", "光線", "嗅覺", "觸覺"],
+    "correctAnswer": 0,
+    "ageGroup": "grade5"
+  },
+  {
+    "id": "ch046",
+    "category": "chinese",
+    "question": "「鍥而不捨」的意思是？",
+    "options": ["堅持不懈", "容易放棄", "猶豫不決", "三心二意"],
+    "correctAnswer": 0,
+    "ageGroup": "grade6"
+  },
+  {
+    "id": "ch047",
+    "category": "chinese",
+    "question": "「胸有成竹」的意思是？",
+    "options": ["心中有把握", "喜歡竹子", "很緊張", "沒有準備"],
+    "correctAnswer": 0,
+    "ageGroup": "grade6"
+  },
+  {
+    "id": "ch048",
+    "category": "chinese",
+    "question": "「刻舟求劍」比喻什麼？",
+    "options": ["不知變通", "很聰明", "善於學習", "勤勞工作"],
+    "correctAnswer": 0,
+    "ageGroup": "grade6"
+  },
+  {
+    "id": "ch049",
+    "category": "chinese",
+    "question": "「亡羊補牢」的意思是？",
+    "options": ["及時補救", "養羊", "修理房子", "太遲了"],
+    "correctAnswer": 0,
+    "ageGroup": "grade6"
+  },
+  {
+    "id": "ch050",
+    "category": "chinese",
+    "question": "「井底之蛙」形容什麼樣的人？",
+    "options": ["見識淺薄", "住在井裡", "很聰明", "喜歡青蛙"],
+    "correctAnswer": 0,
+    "ageGroup": "grade6"
+  },
+  {
+    "id": "en041",
+    "category": "english",
+    "question": "Which is the correct comparative form of 'good'?",
+    "options": ["Better", "Gooder", "More good", "Best"],
+    "correctAnswer": 0,
+    "ageGroup": "grade6"
+  },
+  {
+    "id": "en042",
+    "category": "english",
+    "question": "What is the plural of 'child'?",
+    "options": ["Children", "Childs", "Childes", "Childrens"],
+    "correctAnswer": 0,
+    "ageGroup": "grade6"
+  },
+  {
+    "id": "en043",
+    "category": "english",
+    "question": "Choose the correct sentence:",
+    "options": ["If I were you, I would study harder.", "If I was you, I would study harder.", "If I am you, I would study harder.", "If I be you, I would study harder."],
+    "correctAnswer": 0,
+    "ageGroup": "grade6"
+  },
+  {
+    "id": "en044",
+    "category": "english",
+    "question": "What does 'persuade' mean?",
+    "options": ["Convince", "Confuse", "Prevent", "Pretend"],
+    "correctAnswer": 0,
+    "ageGroup": "grade6"
+  },
+  {
+    "id": "en045",
+    "category": "english",
+    "question": "Which word means '好奇的'?",
+    "options": ["Curious", "Furious", "Serious", "Obvious"],
+    "correctAnswer": 0,
+    "ageGroup": "grade6"
+  },
+  {
+    "id": "ma041",
+    "category": "math",
+    "question": "一個圓的半徑是 7 公分，直徑是多少？",
+    "options": ["14 公分", "7 公分", "21 公分", "3.5 公分"],
+    "correctAnswer": 0,
+    "ageGroup": "grade6"
+  },
+  {
+    "id": "ma042",
+    "category": "math",
+    "question": "2/5 的倒數是多少？",
+    "options": ["5/2", "2/5", "5/5", "1/2"],
+    "correctAnswer": 0,
+    "ageGroup": "grade6"
+  },
+  {
+    "id": "ma043",
+    "category": "math",
+    "question": "0.75 等於百分之幾？",
+    "options": ["75%", "7.5%", "0.75%", "750%"],
+    "correctAnswer": 0,
+    "ageGroup": "grade6"
+  },
+  {
+    "id": "ma044",
+    "category": "math",
+    "question": "一個三角形的三個角度分別是 60°、60° 和多少度？",
+    "options": ["60°", "90°", "45°", "30°"],
+    "correctAnswer": 0,
+    "ageGroup": "grade6"
+  },
+  {
+    "id": "ma045",
+    "category": "math",
+    "question": "5² - 3² = ?",
+    "options": ["16", "14", "18", "20"],
+    "correctAnswer": 0,
+    "ageGroup": "grade6"
+  },
+  {
+    "id": "ge041",
+    "category": "general",
+    "question": "台灣的國花是什麼？",
+    "options": ["梅花", "櫻花", "蓮花", "玫瑰"],
+    "correctAnswer": 0,
+    "ageGroup": "grade6"
+  },
+  {
+    "id": "ge042",
+    "category": "general",
+    "question": "地球自轉一圈需要多久？",
+    "options": ["24 小時", "12 小時", "48 小時", "365 天"],
+    "correctAnswer": 0,
+    "ageGroup": "grade6"
+  },
+  {
+    "id": "ge043",
+    "category": "general",
+    "question": "人體有多少塊骨頭？",
+    "options": ["206 塊", "106 塊", "306 塊", "256 塊"],
+    "correctAnswer": 0,
+    "ageGroup": "grade6"
+  },
+  {
+    "id": "ge044",
+    "category": "general",
+    "question": "光速大約是每秒多少公里？",
+    "options": ["30 萬公里", "3 萬公里", "300 萬公里", "3000 公里"],
+    "correctAnswer": 0,
+    "ageGroup": "grade6"
+  },
+  {
+    "id": "ge045",
+    "category": "general",
+    "question": "台灣位於哪兩個板塊交界？",
+    "options": ["歐亞板塊和菲律賓海板塊", "太平洋板塊和印度板塊", "北美板塊和南美板塊", "非洲板塊和歐亞板塊"],
+    "correctAnswer": 0,
+    "ageGroup": "grade6"
   }
 ]
