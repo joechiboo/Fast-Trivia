@@ -29,7 +29,7 @@
     "question": "「一」的注音是什麼？",
     "options": ["ㄧ", "ㄦ", "ㄙ", "ㄕ"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ch005",
@@ -45,7 +45,7 @@
     "question": "「日」是什麼意思？",
     "options": ["太陽", "月亮", "星星", "雲"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ch007",
@@ -53,7 +53,7 @@
     "question": "「月」是什麼意思？",
     "options": ["月亮", "太陽", "星星", "雲"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ch008",
@@ -61,7 +61,7 @@
     "question": "「水」的注音是什麼？",
     "options": ["ㄕㄨㄟˇ", "ㄙㄨㄟˇ", "ㄕㄨㄟ", "ㄙㄨㄟ"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ch009",
@@ -69,7 +69,7 @@
     "question": "「山」是什麼意思？",
     "options": ["高山", "河流", "大海", "天空"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ch010",
@@ -77,7 +77,7 @@
     "question": "「火」的注音是什麼？",
     "options": ["ㄏㄨㄛˇ", "ㄈㄨㄛˇ", "ㄏㄨㄛ", "ㄈㄨㄛ"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ch011",
@@ -85,7 +85,7 @@
     "question": "「好」的相反是什麼？",
     "options": ["壞", "棒", "美", "醜"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ch012",
@@ -93,7 +93,7 @@
     "question": "「人」有幾畫？",
     "options": ["2畫", "1畫", "3畫", "4畫"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ch013",
@@ -101,7 +101,7 @@
     "question": "「口」有幾畫？",
     "options": ["3畫", "2畫", "4畫", "5畫"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ch014",
@@ -109,7 +109,7 @@
     "question": "「天」的相反是什麼？",
     "options": ["地", "雲", "風", "雨"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ch015",
@@ -117,7 +117,7 @@
     "question": "「早」的相反是什麼？",
     "options": ["晚", "中", "午", "夜"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ch016",
@@ -125,7 +125,7 @@
     "question": "「開」的相反是什麼？",
     "options": ["關", "門", "窗", "鎖"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ch017",
@@ -141,7 +141,7 @@
     "question": "「快」的相反是什麼？",
     "options": ["慢", "停", "走", "跑"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ch019",
@@ -149,7 +149,7 @@
     "question": "「多」的相反是什麼？",
     "options": ["少", "大", "小", "高"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ch020",
@@ -157,7 +157,7 @@
     "question": "「高」的相反是什麼？",
     "options": ["矮", "低", "短", "小"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ch021",
@@ -197,7 +197,7 @@
     "question": "「前」的相反是什麼？",
     "options": ["後", "旁", "邊", "中"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ch026",
@@ -205,7 +205,7 @@
     "question": "「新」的相反是什麼？",
     "options": ["舊", "老", "破", "壞"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ch027",
@@ -213,7 +213,7 @@
     "question": "「輕」的相反是什麼？",
     "options": ["重", "大", "小", "高"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ch028",
@@ -221,7 +221,7 @@
     "question": "「熱」的相反是什麼？",
     "options": ["冷", "涼", "溫", "暖"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ch029",
@@ -357,7 +357,7 @@
     "question": "字母 M 後面是什麼？",
     "options": ["N", "O", "L", "P"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "en006",
@@ -413,7 +413,7 @@
     "question": "Five 是數字幾？",
     "options": ["5", "4", "6", "7"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "en013",
@@ -421,7 +421,7 @@
     "question": "Ten 是數字幾？",
     "options": ["10", "9", "11", "8"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "en014",
@@ -429,7 +429,7 @@
     "question": "Sun 是什麼意思？",
     "options": ["太陽", "月亮", "星星", "雲"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "en015",
@@ -437,7 +437,7 @@
     "question": "Moon 是什麼意思？",
     "options": ["月亮", "太陽", "星星", "雲"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "en016",
@@ -445,7 +445,7 @@
     "question": "Big 是什麼意思？",
     "options": ["大的", "小的", "高的", "矮的"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "en017",
@@ -453,7 +453,7 @@
     "question": "Happy 是什麼意思？",
     "options": ["快樂的", "悲傷的", "生氣的", "害怕的"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "en018",
@@ -461,7 +461,7 @@
     "question": "小寫字母 a 的大寫是什麼？",
     "options": ["A", "B", "C", "D"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "en019",
@@ -469,7 +469,7 @@
     "question": "小寫字母 b 的大寫是什麼？",
     "options": ["B", "A", "C", "D"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "en020",
@@ -517,7 +517,7 @@
     "question": "Water 是什麼意思？",
     "options": ["水", "牛奶", "果汁", "茶"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "en026",
@@ -629,7 +629,7 @@
     "question": "3 + 2 = ?",
     "options": ["5", "4", "6", "7"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ma005",
@@ -637,7 +637,7 @@
     "question": "4 + 3 = ?",
     "options": ["7", "6", "8", "9"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ma006",
@@ -645,7 +645,7 @@
     "question": "5 + 5 = ?",
     "options": ["10", "9", "11", "8"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ma007",
@@ -661,7 +661,7 @@
     "question": "5 - 2 = ?",
     "options": ["3", "2", "4", "5"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ma009",
@@ -669,7 +669,7 @@
     "question": "10 - 5 = ?",
     "options": ["5", "4", "6", "3"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ma010",
@@ -709,7 +709,7 @@
     "question": "正方形有幾個角？",
     "options": ["4個", "3個", "5個", "2個"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ma015",
@@ -717,7 +717,7 @@
     "question": "6 + 4 = ?",
     "options": ["10", "9", "11", "8"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ma016",
@@ -725,7 +725,7 @@
     "question": "7 + 3 = ?",
     "options": ["10", "9", "11", "8"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ma017",
@@ -733,7 +733,7 @@
     "question": "8 - 3 = ?",
     "options": ["5", "4", "6", "7"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ma018",
@@ -741,7 +741,7 @@
     "question": "9 - 4 = ?",
     "options": ["5", "4", "6", "3"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ma019",
@@ -757,7 +757,7 @@
     "question": "5個糖果吃掉2個，還剩幾個？",
     "options": ["3個", "2個", "4個", "5個"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ma021",
@@ -781,7 +781,7 @@
     "question": "8 + 2 = ?",
     "options": ["10", "9", "11", "12"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ma024",
@@ -789,7 +789,7 @@
     "question": "9 + 1 = ?",
     "options": ["10", "9", "11", "8"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ma025",
@@ -797,7 +797,7 @@
     "question": "6 - 3 = ?",
     "options": ["3", "2", "4", "5"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ma026",
@@ -901,7 +901,7 @@
     "question": "太陽在哪裡升起？",
     "options": ["東邊", "西邊", "南邊", "北邊"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ge004",
@@ -909,7 +909,7 @@
     "question": "一年有幾個季節？",
     "options": ["4個", "3個", "5個", "2個"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ge005",
@@ -917,7 +917,7 @@
     "question": "一個星期有幾天？",
     "options": ["7天", "6天", "5天", "8天"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ge006",
@@ -997,7 +997,7 @@
     "question": "紅綠燈的紅燈代表什麼？",
     "options": ["停", "走", "慢", "快"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ge016",
@@ -1005,7 +1005,7 @@
     "question": "綠燈代表什麼？",
     "options": ["走", "停", "慢", "快"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ge017",
@@ -1013,7 +1013,7 @@
     "question": "冬天的天氣是什麼樣的？",
     "options": ["冷", "熱", "溫", "暖"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ge018",
@@ -1021,7 +1021,7 @@
     "question": "夏天的天氣是什麼樣的？",
     "options": ["熱", "冷", "涼", "溫"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ge019",
@@ -1061,7 +1061,7 @@
     "question": "企鵝住在哪裡？",
     "options": ["南極", "北極", "沙漠", "森林"],
     "correctAnswer": 0,
-    "ageGroup": "grade1"
+    "ageGroup": "grade2"
   },
   {
     "id": "ge024",

@@ -12,6 +12,7 @@ export class Game {
   questionStartTime: number
   answerDeadline: number
   submittedAnswers: Map<string, { answerIndex: number; timestamp: number }>
+  resultsCalculated: boolean // 防止重複計算結果
 
   constructor(roomId: string, settings: GameSettings) {
     this.roomId = roomId
@@ -23,6 +24,7 @@ export class Game {
     this.questionStartTime = 0
     this.answerDeadline = 0
     this.submittedAnswers = new Map()
+    this.resultsCalculated = false
   }
 
   private selectQuestions(category: string, count: number): Question[] {
@@ -76,8 +78,39 @@ export class Game {
     this.questionStartTime = Date.now()
     this.answerDeadline = this.questionStartTime + 10000 // 10 seconds
     this.submittedAnswers.clear()
+    this.resultsCalculated = false // 重置結果計算標記
 
-    return this.getCurrentQuestion()
+    // 隨機打亂選項順序
+    const question = this.getCurrentQuestion()
+    if (question) {
+      return this.shuffleOptions(question)
+    }
+    return null
+  }
+
+  private shuffleOptions(question: Question): Question {
+    // 建立選項索引和內容的配對
+    const optionsWithIndex = question.options.map((option, index) => ({
+      option,
+      originalIndex: index
+    }))
+
+    // Fisher-Yates 洗牌算法
+    for (let i = optionsWithIndex.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [optionsWithIndex[i], optionsWithIndex[j]] = [optionsWithIndex[j], optionsWithIndex[i]]
+    }
+
+    // 找出正確答案的新位置
+    const newCorrectAnswerIndex = optionsWithIndex.findIndex(
+      item => item.originalIndex === question.correctAnswer
+    )
+
+    return {
+      ...question,
+      options: optionsWithIndex.map(item => item.option) as [string, string, string, string],
+      correctAnswer: newCorrectAnswerIndex as 0 | 1 | 2 | 3
+    }
   }
 
   getCurrentQuestion(): Question | null {
@@ -112,6 +145,21 @@ export class Game {
   }> {
     const currentQuestion = this.getCurrentQuestion()
     if (!currentQuestion) return []
+
+    // 防止重複計算結果
+    if (this.resultsCalculated) {
+      // 如果已經計算過，直接返回當前狀態
+      return this.getAllPlayers().map(player => ({
+        playerId: player.id,
+        playerName: player.name,
+        score: player.score,
+        isCorrect: player.answers[player.answers.length - 1]?.isCorrect || false,
+        earnedPoints: player.answers[player.answers.length - 1]?.earnedPoints || 0,
+        currentStreak: player.currentStreak
+      })).sort((a, b) => b.score - a.score)
+    }
+
+    this.resultsCalculated = true
 
     const results = this.getAllPlayers().map(player => {
       const answer = this.submittedAnswers.get(player.id)
