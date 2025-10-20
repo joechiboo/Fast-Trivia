@@ -8,6 +8,7 @@
 
       <div class="space-y-4">
         <input
+          ref="nameInput"
           v-model="playerName"
           type="text"
           placeholder="輸入你的暱稱"
@@ -55,15 +56,21 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 import { useSocket } from '../composables/useSocket'
 import { useGameStore } from '../stores/game'
 
 const playerName = ref('')
 const roomCode = ref('')
+const nameInput = ref<HTMLInputElement | null>(null)
 
 const { createRoom, joinRoom } = useSocket()
 const gameStore = useGameStore()
+
+onMounted(() => {
+  // 自動 focus 在暱稱欄位
+  nameInput.value?.focus()
+})
 
 const handleCreateRoom = () => {
   if (playerName.value.trim()) {
