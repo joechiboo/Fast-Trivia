@@ -68,11 +68,11 @@ app.get('/health', (req, res) => {
 // 取得所有開放房間列表
 app.get('/api/rooms', (req, res) => {
   const rooms = roomManager.getAllRooms()
-    .filter(room => room.game && room.game.status === 'waiting') // 只顯示等待中的房間
+    .filter(room => room.game === null || room.game.status === 'waiting') // 顯示尚未開始或等待中的房間
     .map(room => ({
       roomId: room.id,
-      playerCount: room.game!.getAllPlayers().length,
-      hostName: room.game!.getAllPlayers().find(p => p.isHost)?.name || 'Unknown'
+      playerCount: room.players.size,
+      hostName: room.players.get(room.hostId)?.name || 'Unknown'
     }))
   res.json({ rooms })
 })
