@@ -91,7 +91,11 @@ const currentComponent = computed(() => {
   z-index: 0;
 }
 
-#app.halloween-theme > * {
+#app.halloween-theme > .halloween-decorations {
+  z-index: 999;
+}
+
+#app.halloween-theme > :not(.halloween-decorations) {
   position: relative;
   z-index: 1;
 }
@@ -116,7 +120,7 @@ const currentComponent = computed(() => {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  z-index: 0;
+  z-index: 999;
   overflow: hidden;
 }
 

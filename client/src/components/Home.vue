@@ -34,14 +34,33 @@
           </div>
         </div>
 
-        <input
-          v-model="roomCode"
-          type="text"
-          placeholder="輸入房間代碼"
-          class="w-full px-4 py-3 rounded-lg border-2 border-gray-300 focus:border-primary-500 focus:outline-none text-lg uppercase"
-          maxlength="6"
-          @keyup.enter="handleJoinRoom"
-        />
+        <!-- 房間列表選擇 -->
+        <div v-if="availableRooms.length > 0" class="space-y-2">
+          <label class="block text-sm font-medium text-gray-700">選擇房間</label>
+          <select
+            v-model="selectedRoomId"
+            @change="onRoomSelect"
+            class="w-full px-4 py-3 rounded-lg border-2 border-gray-300 focus:border-primary-500 focus:outline-none text-lg"
+          >
+            <option value="">-- 選擇現有房間 --</option>
+            <option v-for="room in availableRooms" :key="room.roomId" :value="room.roomId">
+              {{ room.roomId }} ({{ room.hostName }}, {{ room.playerCount }} 人)
+            </option>
+          </select>
+        </div>
+
+        <!-- 手動輸入房間代碼 -->
+        <div class="space-y-2">
+          <label class="block text-sm font-medium text-gray-700">或手動輸入</label>
+          <input
+            v-model="roomCode"
+            type="text"
+            placeholder="輸入房間代碼"
+            class="w-full px-4 py-3 rounded-lg border-2 border-gray-300 focus:border-primary-500 focus:outline-none text-lg uppercase"
+            maxlength="6"
+            @keyup.enter="handleJoinRoom"
+          />
+        </div>
 
         <button
           @click="handleJoinRoom"
@@ -49,6 +68,14 @@
           class="w-full bg-secondary-600 hover:bg-secondary-700 disabled:bg-gray-400 text-white font-semibold py-3 rounded-lg transition-all transform hover:scale-105 active:scale-95 disabled:transform-none text-lg"
         >
           加入房間
+        </button>
+
+        <button
+          v-if="availableRooms.length > 0"
+          @click="fetchRooms"
+          class="w-full bg-gray-200 hover:bg-gray-300 text-gray-700 font-medium py-2 rounded-lg transition-all text-sm"
+        >
+          🔄 重新整理房間列表
         </button>
       </div>
     </div>
@@ -60,16 +87,47 @@ import { ref, onMounted } from 'vue'
 import { useSocket } from '../composables/useSocket'
 import { useGameStore } from '../stores/game'
 
+interface Room {
+  roomId: string
+  playerCount: number
+  hostName: string
+}
+
 const playerName = ref('')
 const roomCode = ref('')
+const selectedRoomId = ref('')
+const availableRooms = ref<Room[]>([])
 const nameInput = ref<HTMLInputElement | null>(null)
 
 const { createRoom, joinRoom } = useSocket()
 const gameStore = useGameStore()
 
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000'
+
+const fetchRooms = async () => {
+  try {
+    const response = await fetch(`${API_URL}/api/rooms`)
+    const data = await response.json()
+    availableRooms.value = data.rooms || []
+  } catch (error) {
+    console.error('Failed to fetch rooms:', error)
+    availableRooms.value = []
+  }
+}
+
+const onRoomSelect = () => {
+  if (selectedRoomId.value) {
+    roomCode.value = selectedRoomId.value
+  }
+}
+
 onMounted(() => {
   // 自動 focus 在暱稱欄位
   nameInput.value?.focus()
+  // 載入房間列表
+  fetchRooms()
+  // 每 5 秒更新房間列表
+  setInterval(fetchRooms, 5000)
 })
 
 const handleCreateRoom = () => {
