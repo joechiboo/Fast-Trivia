@@ -29,7 +29,8 @@
       "Bash(curl:*)",
       "Bash(npm run build:*)",
       "Bash(cat:*)",
-      "Bash(gh run list:*)"
+      "Bash(gh run list:*)",
+      "Bash(git pull:*)"
     ],
     "deny": [],
     "ask": []

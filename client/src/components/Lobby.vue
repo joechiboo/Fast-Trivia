@@ -135,6 +135,7 @@ const ageLevels = [
   { value: 'grade4' as AgeGroup, label: '小學四年級 (10歲)', emoji: '🎓' },
   { value: 'grade5' as AgeGroup, label: '小學五年級 (11歲)', emoji: '📖' },
   { value: 'grade6' as AgeGroup, label: '小學六年級 (12歲)', emoji: '🎯' },
+  { value: 'halloween' as AgeGroup, label: '萬聖節特輯 🎃', emoji: '👻' },
 ]
 
 const copyRoomCode = async () => {

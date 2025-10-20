@@ -1478,5 +1478,245 @@
     "options": ["歐亞板塊和菲律賓海板塊", "太平洋板塊和印度板塊", "北美板塊和南美板塊", "非洲板塊和歐亞板塊"],
     "correctAnswer": 0,
     "ageGroup": "grade6"
+  },
+  {
+    "id": "hw001",
+    "category": "chinese",
+    "question": "「南瓜」的注音是什麼？",
+    "options": ["ㄋㄢˊ ㄍㄨㄚ", "ㄋㄢˇ ㄍㄨㄚ", "ㄋㄢ ㄍㄨㄚˊ", "ㄌㄢˊ ㄍㄨㄚ"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw002",
+    "category": "chinese",
+    "question": "「鬼」的部首是什麼？",
+    "options": ["鬼", "儿", "田", "人"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw003",
+    "category": "chinese",
+    "question": "「不給糖就搗蛋」中的「搗蛋」是什麼意思？",
+    "options": ["惡作劇", "打蛋", "吃蛋", "煮蛋"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw004",
+    "category": "chinese",
+    "question": "「陰森」的相反詞是什麼？",
+    "options": ["明亮", "黑暗", "恐怖", "寒冷"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw005",
+    "category": "chinese",
+    "question": "「驚嚇」的同義詞是什麼？",
+    "options": ["嚇唬", "開心", "平靜", "勇敢"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw006",
+    "category": "english",
+    "question": "Halloween 是幾月幾號？",
+    "options": ["October 31", "October 30", "November 1", "September 31"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw007",
+    "category": "english",
+    "question": "Pumpkin 是什麼意思？",
+    "options": ["南瓜", "西瓜", "冬瓜", "苦瓜"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw008",
+    "category": "english",
+    "question": "Ghost 是什麼意思？",
+    "options": ["鬼", "怪物", "巫婆", "蝙蝠"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw009",
+    "category": "english",
+    "question": "Trick or treat 是什麼意思？",
+    "options": ["不給糖就搗蛋", "惡作劇", "請給我糖果", "萬聖節快樂"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw010",
+    "category": "english",
+    "question": "Witch 是什麼意思？",
+    "options": ["巫婆", "女巫師", "魔法師", "仙女"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw011",
+    "category": "english",
+    "question": "Bat 是什麼動物？",
+    "options": ["蝙蝠", "老鼠", "鳥", "貓"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw012",
+    "category": "english",
+    "question": "Spider 是什麼意思？",
+    "options": ["蜘蛛", "蟑螂", "蚊子", "蒼蠅"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw013",
+    "category": "english",
+    "question": "Skeleton 是什麼意思？",
+    "options": ["骨骼", "木乃伊", "殭屍", "吸血鬼"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw014",
+    "category": "english",
+    "question": "Candy 是什麼意思？",
+    "options": ["糖果", "餅乾", "蛋糕", "巧克力"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw015",
+    "category": "english",
+    "question": "Costume 是什麼意思？",
+    "options": ["服裝", "面具", "帽子", "鞋子"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw016",
+    "category": "math",
+    "question": "如果有 3 個南瓜，每個南瓜裡有 8 顆糖果，一共有多少顆糖果？",
+    "options": ["24 顆", "20 顆", "28 顆", "18 顆"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw017",
+    "category": "math",
+    "question": "小明要去 5 戶人家要糖果，每戶給他 6 顆，他一共會得到多少顆糖果？",
+    "options": ["30 顆", "25 顆", "35 顆", "28 顆"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw018",
+    "category": "math",
+    "question": "小華有 20 顆糖果，分給 4 個朋友，每人可以得到幾顆？",
+    "options": ["5 顆", "4 顆", "6 顆", "8 顆"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw019",
+    "category": "math",
+    "question": "如果一個南瓜燈籠需要雕刻 15 分鐘，雕刻 4 個需要多少分鐘？",
+    "options": ["60 分鐘", "50 分鐘", "70 分鐘", "45 分鐘"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw020",
+    "category": "math",
+    "question": "萬聖節派對有 12 個小朋友，每人吃 3 塊餅乾，一共需要多少塊餅乾？",
+    "options": ["36 塊", "30 塊", "42 塊", "24 塊"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw021",
+    "category": "general",
+    "question": "萬聖節是哪一天？",
+    "options": ["10月31日", "10月30日", "11月1日", "10月1日"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw022",
+    "category": "general",
+    "question": "萬聖節最常見的裝飾是什麼？",
+    "options": ["南瓜燈籠", "聖誕樹", "月餅", "粽子"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw023",
+    "category": "general",
+    "question": "南瓜燈籠英文叫什麼？",
+    "options": ["Jack-o'-lantern", "Pumpkin light", "Halloween lamp", "Orange light"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw024",
+    "category": "general",
+    "question": "萬聖節小朋友會做什麼活動？",
+    "options": ["要糖果", "放鞭炮", "吃月餅", "包粽子"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw025",
+    "category": "general",
+    "question": "萬聖節起源於哪個國家？",
+    "options": ["愛爾蘭", "美國", "中國", "日本"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw026",
+    "category": "general",
+    "question": "蝙蝠在萬聖節代表什麼？",
+    "options": ["神秘和黑暗", "幸運", "快樂", "智慧"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw027",
+    "category": "general",
+    "question": "萬聖節常見的顏色是？",
+    "options": ["橘色和黑色", "紅色和綠色", "藍色和白色", "黃色和紫色"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw028",
+    "category": "general",
+    "question": "黑貓在萬聖節象徵什麼？",
+    "options": ["神秘", "可愛", "溫暖", "聰明"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw029",
+    "category": "general",
+    "question": "萬聖節小朋友會穿什麼？",
+    "options": ["奇裝異服", "校服", "運動服", "睡衣"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
+  },
+  {
+    "id": "hw030",
+    "category": "general",
+    "question": "南瓜是什麼顏色？",
+    "options": ["橘色", "綠色", "黃色", "紅色"],
+    "correctAnswer": 0,
+    "ageGroup": "halloween"
   }
 ]
