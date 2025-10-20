@@ -30,6 +30,7 @@ export interface Answer {
 export interface GameSettings {
   category: Category
   questionCount: 5
+  ageGroup?: 'preschool' | 'grade1' | 'grade2' | 'grade4' | 'grade5' | 'grade6'
 }
 
 export type GameStatus = 'waiting' | 'countdown' | 'question' | 'result' | 'ended'

@@ -77,8 +77,10 @@
 - **資料驗證**: Zod 或類似套件
 
 #### 部署
-- **前端**: Vercel 或 Netlify
-- **後端**: Render、Railway 或 Fly.io
+- **前端**: GitHub Pages (https://joechiboo.github.io/Fast-Trivia/)
+- **後端**: Render.com (https://render.com/)
+  - 後端服務: https://fast-trivia.onrender.com
+  - 自動部署: 推送到 main 分支時自動觸發
 - **環境變數管理**: .env 檔案
 
 ### 技術選擇理由

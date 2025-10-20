@@ -80,7 +80,29 @@ export function useSocket() {
       gameStore.setNextQuestionCountdown(data.count)
     })
 
-    socket.value.on('game_ended', () => {
+    socket.value.on('game_ended', (data: {
+      finalScoreboard: Array<{
+        playerId: string
+        playerName: string
+        score: number
+        correctCount: number
+        totalQuestions: number
+      }>
+    }) => {
+      // 更新玩家列表為最終成績
+      const players = data.finalScoreboard.map(s => {
+        const existingPlayer = gameStore.players.find(p => p.id === s.playerId)
+        return {
+          id: s.playerId,
+          name: s.playerName,
+          score: s.score,
+          currentStreak: 0,
+          isHost: existingPlayer?.isHost || false,
+          correctCount: s.correctCount,
+          totalQuestions: s.totalQuestions
+        }
+      })
+      gameStore.updatePlayers(players)
       gameStore.setGameStatus('ended')
     })
 

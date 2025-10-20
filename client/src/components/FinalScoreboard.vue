@@ -73,7 +73,7 @@
           </div>
           <div class="text-center">
             <div class="text-sm text-gray-600">答對題數</div>
-            <div class="text-2xl font-bold text-green-600">{{ correctCount }}/5</div>
+            <div class="text-2xl font-bold text-green-600">{{ correctCount }}/{{ totalQuestions }}</div>
           </div>
           <div class="text-center">
             <div class="text-sm text-gray-600">正確率</div>
@@ -125,15 +125,19 @@ const myRank = computed(() => {
   return allPlayers.value.findIndex(p => p.id === gameStore.playerId) + 1
 })
 
-// 這裡需要額外追蹤答對題數，暫時簡化計算
 const correctCount = computed(() => {
-  // 根據連勝數估算 (實際應該追蹤每題的答題記錄)
-  const score = myStats.value?.score ?? 0
-  return Math.round(score / 150) // 簡化估算
+  // 使用後端提供的正確答題數
+  return myStats.value?.correctCount ?? 0
+})
+
+const totalQuestions = computed(() => {
+  return myStats.value?.totalQuestions ?? 5
 })
 
 const accuracy = computed(() => {
-  return Math.round((correctCount.value / 5) * 100)
+  const total = totalQuestions.value
+  if (total === 0) return 0
+  return Math.round((correctCount.value / total) * 100)
 })
 
 const handlePlayAgain = () => {

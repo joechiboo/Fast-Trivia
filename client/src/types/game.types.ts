@@ -16,6 +16,8 @@ export interface Player {
   score: number
   currentStreak: number
   isHost: boolean
+  correctCount?: number
+  totalQuestions?: number
 }
 
 export type AgeGroup = 'preschool' | 'grade2' | 'grade4' | 'grade5' | 'grade6'

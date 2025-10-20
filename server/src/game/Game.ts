@@ -30,11 +30,17 @@ export class Game {
   private selectQuestions(category: string, count: number): Question[] {
     const allQuestions = questionsData as Question[]
 
+    // 根據類別篩選
     let filtered: Question[]
     if (category === 'mixed') {
       filtered = allQuestions
     } else {
       filtered = allQuestions.filter(q => q.category === category)
+    }
+
+    // 根據難度篩選
+    if (this.settings.ageGroup) {
+      filtered = filtered.filter(q => q.ageGroup === this.settings.ageGroup)
     }
 
     // 隨機打亂並選取指定數量
