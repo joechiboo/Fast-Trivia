@@ -35,14 +35,23 @@
         </div>
 
         <!-- 房間列表選擇 -->
-        <div v-if="availableRooms.length > 0" class="space-y-2">
-          <label class="block text-sm font-medium text-gray-700">選擇房間</label>
+        <div class="space-y-2">
+          <div class="flex items-center justify-between">
+            <label class="block text-sm font-medium text-gray-700">選擇房間</label>
+            <button
+              @click="fetchRooms"
+              class="text-xs text-primary-600 hover:text-primary-700 font-medium"
+            >
+              🔄 重新整理
+            </button>
+          </div>
           <select
             v-model="selectedRoomId"
             @change="onRoomSelect"
             class="w-full px-4 py-3 rounded-lg border-2 border-gray-300 focus:border-primary-500 focus:outline-none text-lg"
+            :disabled="availableRooms.length === 0"
           >
-            <option value="">-- 選擇現有房間 --</option>
+            <option value="">{{ availableRooms.length === 0 ? '-- 目前沒有可用房間 --' : '-- 選擇現有房間 --' }}</option>
             <option v-for="room in availableRooms" :key="room.roomId" :value="room.roomId">
               {{ room.roomId }} ({{ room.hostName }}, {{ room.playerCount }} 人)
             </option>
@@ -68,14 +77,6 @@
           class="w-full bg-secondary-600 hover:bg-secondary-700 disabled:bg-gray-400 text-white font-semibold py-3 rounded-lg transition-all transform hover:scale-105 active:scale-95 disabled:transform-none text-lg"
         >
           加入房間
-        </button>
-
-        <button
-          v-if="availableRooms.length > 0"
-          @click="fetchRooms"
-          class="w-full bg-gray-200 hover:bg-gray-300 text-gray-700 font-medium py-2 rounded-lg transition-all text-sm"
-        >
-          🔄 重新整理房間列表
         </button>
       </div>
     </div>
